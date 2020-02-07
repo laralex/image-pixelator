@@ -14,9 +14,10 @@ namespace Lab01
 {
     public partial class ImageProcessorForm : Form
     {
-        private const int MAX_PARALLELISATION_LEVEL = -1 ;
+        private const int MAX_PARALLELISATION_LEVEL = -1;
+
         public event EventHandler ProcessingBegin;
-        public event EventHandler ProcessingCancel;
+        //public event EventHandler ProcessingCancel;
         public event EventHandler<ProcessingEndEventArgs> ProcessingEnd;
         public event EventHandler AddingFileToListBegin;
         public event EventHandler AddingFileToListEnd;
