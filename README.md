@@ -9,3 +9,8 @@ This Windows GUI application helps to bulk pixelate a large number of image file
 # Usage Aspects
 - Saves log in a separate text file about result of processing for each file
 - Source files are left untouched (processed files are saved in the same directory as source file)
+# Example of result
+Before processing: [(1 MB image)](https://i.ibb.co/YDvQv5R)
+
+
+After pixelation:![](https://i.ibb.co/3Wm4dLQ/010-37-processed.png)
