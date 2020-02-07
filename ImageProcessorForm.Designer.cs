@@ -140,7 +140,7 @@
             this.listViewImages.Location = new System.Drawing.Point(0, 96);
             this.listViewImages.MultiSelect = false;
             this.listViewImages.Name = "listViewImages";
-            this.listViewImages.Size = new System.Drawing.Size(377, 173);
+            this.listViewImages.Size = new System.Drawing.Size(377, 237);
             this.listViewImages.TabIndex = 5;
             this.listViewImages.UseCompatibleStateImageBehavior = false;
             // 
@@ -192,11 +192,12 @@
             this.preprocessingConfigPanel.Controls.Add(this.listViewImages);
             this.preprocessingConfigPanel.Location = new System.Drawing.Point(12, 41);
             this.preprocessingConfigPanel.Name = "preprocessingConfigPanel";
-            this.preprocessingConfigPanel.Size = new System.Drawing.Size(377, 269);
+            this.preprocessingConfigPanel.Size = new System.Drawing.Size(377, 333);
             this.preprocessingConfigPanel.TabIndex = 9;
             // 
             // cbDisableLog
             // 
+            this.cbDisableLog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbDisableLog.AutoSize = true;
             this.cbDisableLog.Location = new System.Drawing.Point(252, 6);
             this.cbDisableLog.Name = "cbDisableLog";
@@ -208,6 +209,7 @@
             // 
             // cbParallel
             // 
+            this.cbParallel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbParallel.AutoSize = true;
             this.cbParallel.Checked = true;
             this.cbParallel.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -245,7 +247,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 322);
+            this.ClientSize = new System.Drawing.Size(401, 386);
             this.Controls.Add(this.preprocessingConfigPanel);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnStart);
